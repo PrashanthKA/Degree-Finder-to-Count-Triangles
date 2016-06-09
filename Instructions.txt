@@ -1,0 +1,7 @@
+Steps to run :
+
+1.Install hadoop.
+2. in the terminal run the hadoop jar <jarFilName><Driver Class> input output files.
+3. The input is a sample graph file containing edges of an undirected graph.
+4. For the given code, there will be five output files, so provide five ouput file names while running the hadoop job.
+5. so, for the project the command would be hadoop jar DegreeFinderDriver.jar DegreeFinderDriver input op1 op2 op3 op4 op5.
